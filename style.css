@@ -1,0 +1,327 @@
+:root {
+    --color-dark: #050404;   
+    --color-primary: #7B4A9D; 
+    --color-primary-transparent:rgba(123, 74, 157, 0.5);
+    --color-tertiary: #E9E5DD;  
+    --color-access: #2196D3;
+    --color-white-100:rgba(255, 255, 255, 1);
+    --color-white-90:rgba(255, 255, 255, 0.9);
+    --color-white-80:rgba(255, 255, 255, 0.8);
+    --color-white-70:rgba(255, 255, 255, 0.7);
+    --color-white-60:rgba(255, 255, 255, 0.6);
+    --color-access-transparent:rgba(33, 150, 211, 0.8);
+    --primary-shadow: 2px 2px 4px rgba(14, 29, 26, 1);
+    --secondary-shadow: 1px 1px 2px rgba(14, 29, 26, 1);
+    }
+
+
+
+
+/* Font */
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/NexaBold.woff2') format('woff2'),
+        url('fonts/NexaBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/NexaLight.woff2') format('woff2'),
+        url('fonts/NexaLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-Black.woff2') format('woff2'),
+        url('fonts/Nexa-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('Nexa-BlackItalic.woff2') format('woff2'),
+        url('Nexa-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('Nexa-Bold.woff2') format('woff2'),
+        url('Nexa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('Nexa-BoldItalic.woff2') format('woff2'),
+        url('Nexa-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('Nexa-Book.woff2') format('woff2'),
+        url('Nexa-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-BookItalic.woff2') format('woff2'),
+        url('fonts/Nexa-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-Heavy.woff2') format('woff2'),
+        url('fonts/Nexa-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-HeavyItalic.woff2') format('woff2'),
+        url('fonts/Nexa-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-Light.woff2') format('woff2'),
+        url('fonts/Nexa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-LightItalic.woff2') format('woff2'),
+        url('fonts/Nexa-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-Regular.woff2') format('woff2'),
+        url('fonts/Nexa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-RegularItalic.woff2') format('woff2'),
+        url('fonts/Nexa-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-Thin.woff2') format('woff2'),
+        url('fonts/Nexa-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-ThinItalic.woff2') format('woff2'),
+        url('fonts/Nexa-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-XBold.woff2') format('woff2'),
+        url('fonts/Nexa-XBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/Nexa-XBoldItalic.woff2') format('woff2'),
+        url('fonts/Nexa-XBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-family: "Nexa" !important;
+    background-color: var(--color-dark);
+}
+
+.button-large {
+    background-color: var(--color-access-transparent);
+    color: var(--color-white-100);
+    padding: 16px 12px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+.button-small {
+    background-color: var(--color-access-transparent);
+    color: var(--color-white-100);
+    padding: 12px 6px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+/* Nabvar */
+nav {
+    background-color: var(--color-dark);
+}
+
+nav a {
+    color: var(--color-white-90) !important;
+    font-weight: normal !important;
+    letter-spacing: 0.1em;
+    margin-right: 16px;
+}
+.navbar-brand {
+width: 100px;
+}
+
+/* Hero */
+
+#hero {
+    background-image: url("images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 32px 0;
+}
+
+#hero-text-block {
+    background-color: var(--color-primary-transparent);
+    color: var(--color-white-90);
+    padding: 64px 32px;
+    border-radius: 20px;
+}
+
+#hero-text-block img {
+   width: 374px;
+}
+
+#hero-text-block h1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.07em;
+    color: var(--color-white-90);
+ }
+
+#hero-text-block p {
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--color-white-70);
+ }
+
+ #about-us-hero {
+    background-color: var(--color-dark);
+ }
+
+ #about-us-hero-text-block {
+    padding: 0 128px;
+ }
+
+ #about-us-hero-text-block h2 {
+   color: var(--color-white-90);
+   font-size: 32px;
+   letter-spacing: 0.1em;
+   font-weight: bold;
+ }
+
+ h2 span {
+    color: var(--color-primary);
+  }
+
+  #about-us-hero-text-block p {
+    color: var(--color-white-80);
+  }
+
+  #services {
+    background-image: url("images/services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #services-text-block {
+    background-color: var(--color-primary-transparent);
+    border-radius: 20px;
+  }
+
+  #services i {
+    font-size: 100px;
+    color: white;
+  }
+
+  #services h2 {
+    color: white;
+    letter-spacing: 0.05em;
+  }
+
+   h3 {
+    color: var(--color-white-90);
+  }
+
+  p {
+    color: var(--color-white-80);
+  }
+
+  #services p {
+    color: var(--color-white-80);
+  }
+
+
+  #our-projects h2 {
+     color: white;
+     letter-spacing: 0.05em;
+  }
+
+  #our-projects .card {
+    background-color: transparent;
+  }
+
+  #our-projects-text-block {
+    border-bottom: 1px solid var(--color-primary);
+  }
+
+  
