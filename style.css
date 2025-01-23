@@ -199,7 +199,7 @@ body {
 .button-small {
     background-color: var(--color-access-transparent);
     color: var(--color-white-100);
-    padding: 12px 6px;
+    padding: 8px 16px;
     border: 0;
     font-size: 16px;
     border-radius: 4px;
@@ -323,5 +323,66 @@ width: 100px;
   #our-projects-text-block {
     border-bottom: 1px solid var(--color-primary);
   }
+
+
+  #contact-us input, #contact-us textarea {
+    background-color: transparent;
+    border: solid white 1px !important;
+    color: white;
+  }
+
+  .iti {
+    width: 100%;
+  }
+
+
+
+  #contact-us{
+    position: relative;
+    background-image: url("images/logo-colored-named.png");
+    background-size: contain;  /* Ensures the image covers the full area */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #contact-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with 50% opacity */
+    z-index: 1;
+  }
+  
+  #contact-us-text-block {
+    position: relative;
+    z-index: 2; /* Ensures the content stays on top */
+  }
+
+  #contact-us label {
+    color: var(--color-white-80);
+  }
+
+  #contact-us h2 {
+    color: var(--color-white-100);
+  }
+
+  #contact-us i, #contact-us span {
+    color: var(--color-white-80);
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  #contact-us i {
+    margin-right: 16px;
+  }
+
+
+  #contact-us-text-block {
+    background-color: var(--color-primary-transparent);
+  }
+
 
   
